@@ -24,39 +24,7 @@ See my [Hardware List](HARDWARE.md)
 
 ### What's Working/What's Not
 
-##### Working
-- Ethernet
-- Onboard Audio (including digital audio)
-- APFS
-- Sleep/Wake
-- All USB ports at 3.x speed
-- iMessage
-- App Store
-- Facetime
-- APFS
-- Handoff
-- Bluetooth & Wi-Fi (via Broadcom adapter)
-- Unlock with Apple Watch
-- Airdrop
-- AirPlay
-- Continuity
-- ALL DRMs:
-  - iTunes Movies (FairPlay 1.x)
-  - Netflix (FairPlay 2.x/3.x)
-  - Some Amazon Prime content, but not all. (FairPlay 2.x/3.x)
-  - Apple TV+ (FairPlay 4.x)
-- Power Nap
-- NVRAM
-
-
-##### Not Working (as expected)
-- Built-in WIFI. This will very likely never work since it is the new Intel CNVi that macOS doesn't support.
-- Onboard Bluetooth. I disabled it (HS14) because I have a natively supported Broadcom BCM94360CS2 WIFI/BT adapter anyways.
-
-
-##### Not Yet Tested
-- FileVault
-
+I haven't yet done extensive tests. Will update this later.
 
 ### Step By Step Instructions
 
@@ -65,7 +33,7 @@ My old Clover guide used to have Step by Step instructions but I decided not to 
 
 ### USB Port Map & SSDT
 
-See [USB_MAP.md](USB_MAP.md) for a map of all the ports on the Aorus z390 Master.
+See [USB_MAP.md](USB_MAP.md) for a map of all the ports on the Z390 AORUS PRO WIFI.
 
 
 ### My EFI
