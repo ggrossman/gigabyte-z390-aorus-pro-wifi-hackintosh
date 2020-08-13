@@ -1,6 +1,18 @@
 Looking for my original Clover guide? [It's still available right here](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh/tree/96fe5217b6bfb59f9157848feac44443b87b890f).
 
-# Hackintosh Catalina Guide for Gigabyte Z390 Aorus Master (OpenCore)
+# Hackintosh Catalina Guide for Gigabyte Z390 Aorus Pro Wifi (OpenCore)
+
+This is a fork of https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh with alterations to work on
+Gigabyte Z390 AORUS PRO WIFI, instead of Gigabyte Z390 AORUS PRO Master.
+
+I first attempted to use https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore
+but wasn't able to get it to boot. (I may have constructed the EFI incorrectly.)
+
+The EFI from cmer's AORUS PRO MASTER booted up on the first try, but with
+no Ethernet, some disabled USB ports, and no iGPU hardware acceleration. With some fixes, my system is now
+working.
+
+--
 
 This build is "Vanilla". I used [this guide](https://dortania.github.io/OpenCore-Desktop-Guide/) as a starting point.
 
