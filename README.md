@@ -1,5 +1,3 @@
-Looking for my original Clover guide? [It's still available right here](https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh/tree/96fe5217b6bfb59f9157848feac44443b87b890f).
-
 # Hackintosh Catalina Guide for Gigabyte Z390 Aorus Pro Wifi (OpenCore)
 
 This is a fork of https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh with alterations to work on
