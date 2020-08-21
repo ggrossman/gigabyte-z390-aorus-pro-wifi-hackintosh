@@ -830,7 +830,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=0 debug=0x100 alcid=16 shikigva=80 agdpmod=pikera</string>
+				<string>-v uia_exclude=HS14 keepsyms=0 debug=0x100 alcid=16 shikigva=80 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
