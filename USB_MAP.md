@@ -28,13 +28,12 @@ blacklizard repo.
 - SS03 - Rear USB 3.1 Gen 2 Type-A Port(Red)
 - SS04 - Rear USB 3.1 Gen 1 Port
 - SS05 - Rear USB 3.1 Gen 2 Type-A Port(Red)
-- SS06 - Rear USB Type-C Port
+- HS06 / SS06 - Rear USB Type-C Port
 - HS07 / SS07 - Rear USB 3.1 Gen 1 Port
 - HS08 / SS08 - Rear USB 3.1 Gen 1 Port
 - HS09 / SS09 - Front USB 3.1 Gen 1 Port
 - HS10 / SS10 - Front USB 3.1 Gen 1 Port
 - HS11 - Internal USB 2.0 #1 and #2
-- HS12 - IT8297 - RGB Controller  
 - HS13 - Rear USB 2.0 (All 4 ports)
 
 Total of 15 ports, matching Apple's 15 port limit
