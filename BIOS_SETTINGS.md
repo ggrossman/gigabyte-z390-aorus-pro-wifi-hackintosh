@@ -3,7 +3,7 @@
 While I based my build mostly on cmer's AORUS Master repo, these BIOS settings are borrowed from
 https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore/blob/master/BIOS.md
 
-BIOS version: `F11`
+BIOS version: `F12c` (initial install on `F11`)
 
 - Load Optimized Defaults
 - Settings -> Internal Graphics -> Enabled
@@ -16,6 +16,19 @@ BIOS version: `F11`
 - Settings -> Software Guard Extensions(SGX) -> Disabled
 - Settings -> Trusted Computing -> Security Device Support -> Disabled
 - Boot -> CSM Support -> Disabled
+
+## Important for Sleep/Wake
+
+For weeks, my system was crashing after Sleep with "Sleep Wake Failure on EFI" panics.
+
+I tried numerous things to fix it. Finally, I happened upon these BIOS settings:
+
+- Settings -> Platform Power Management -> Enabled
+- Settings -> PCH ASPM -> Enabled
+- Settings -> PEG ASPM -> Enabled
+- Settings -> DMI Link ASPM -> Enabled
+
+Once I enabled these, Sleep/Wake worked as expected.
 
 ## Hidden BIOS setting
 
